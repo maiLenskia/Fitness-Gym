@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet');
+@import url('nav-icons.css');
+@import url('responsive.css');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.5 'PT Serif', serif;
+}
+
+h1 {
+    font-weight: 900;
+    color: white;
+    font-size: 60px;
+    letter-spacing: 3px;
+    padding: 7rem 0 3rem 0;
+}
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+}
+
+h2::after {
+    content: '';
+    width: 30px;
+    height: 2px;
+    margin: 0 auto;
+    background: #D01919;
+    display: block;
+    margin-top: 2rem;
+}
+
+h3 {
+    font-size: 24px;
+    color: #D01919;
+    padding-bottom: 1rem;
+}
+
+.site-description {
+    color: white;
+}
+
+li,
+a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.wrapper {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+.site-header {
+    background: #D01919;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2.5rem;
+}
+
+.site-header a {
+    color: white;
+}
+
+.banner {
+    background: url('../fitnessGitHub/img/fitness-main.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 8rem;
+}
+
+.site-description {
+    font-size: 20px;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+.button {
+    background: #D01919;
+    color: white;
+    padding: 0.4rem 0.7rem;
+    border: none;
+    border-radius: 3px;
+    /* margin-bottom: 8rem; */
+}
+
+.welcome {
+    padding: 3rem 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-list div {
+    flex: 0 0 30%;
+    text-align: center;
+}
+
+.services-list img {
+    width: 5rem;
+    margin: 3rem 0 1rem 0;
+}
+
+.coaches {
+    text-align: center;
+    background: #EFEFEF;
+}
+
+.coaches .services-list {
+    justify-content: space-around;
+}
+
+.coaches h3 {
+    color: black;
+    padding-bottom: 0;
+}
+
+.profession {
+    color: #D01919;
+    margin-bottom: 1.5rem;
+}
+
+.description {
+    margin-bottom: 3rem;
+    color: gray;
+}
+
+.coaches p {
+    flex: 0 0 30%;
+}
+
+.coaches img {
+    width: 300px;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.site-footer p {
+    background: #D01919;
+    color: black;
+    text-align: center;
+    font-weight: 500;
+    padding: 0.7rem 0;
+}

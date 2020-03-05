@@ -1,0 +1,76 @@
+.icons {
+    display: flex;
+}
+
+.icons li {
+    list-style: none outside;
+    padding-right: 1rem;
+}
+
+.icon::before {
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.icon-brands::before {
+    font-family: "Font Awesome 5 Brands";
+}
+
+
+/* .icon-phone::before {
+    content: '\f3cd';
+    padding-right: 0.5rem;
+} */
+
+.icon-phone {
+    padding-left: 0.5rem;
+}
+
+.site-phone {
+    display: flex;
+    justify-content: center;
+    padding-right: 0.5rem;
+}
+
+.location-map {
+    display: flex;
+}
+
+
+/* .icon-location:before {
+    content: '\f606';
+    padding-right: 0.5rem;
+} */
+
+.icon-face:before {
+    content: '\f39e';
+}
+
+.icon-twit:before {
+    content: '\f099';
+}
+
+.icon-insta:before {
+    content: '\f16d';
+}
+
+.icon-youtube:before {
+    content: '\f167';
+}
+
+.site-nav ul {
+    justify-content: flex-end;
+    display: flex;
+    padding: 0.4rem 1rem;
+}
+
+.site-nav li {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.site-nav a {
+    padding: 0.6rem 2.5rem;
+}
